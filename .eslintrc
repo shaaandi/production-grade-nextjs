@@ -10,6 +10,12 @@
     }
   },
   "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+    "endOfLine": "auto"
+      }
+    ],
     "semi": "off",
     "react/jsx-filename-extension": "off",
     "react/jsx-props-no-spreading": "off",
